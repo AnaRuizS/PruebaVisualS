@@ -7,7 +7,7 @@
 int _tmain(int argc, _TCHAR* argv[])
 {
 	int umbral=100;
-	char filename[33]="C:/Users/ANA/Pictures/bosque.jpg";
+	char filename[33]="C:/Users/ANA/Pictures/fondo.jpg";
 
 	IplImage* img1 = cvLoadImage(filename,1);
 	IplImage* img2 = cvLoadImage(filename,0);
